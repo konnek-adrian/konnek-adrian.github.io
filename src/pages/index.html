@@ -3,151 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <meta name="description" content="Your project description" />
+    <title>Adrian Konnek PORTFOLIO</title>
+    <meta name="description" content="Skills and projects" />
     <!-- Title -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="Skills and projects" />
     <!-- OPTIONAL description. 2-4 sentences. -->
     <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
-
-    <!-- uncomment the line below to enable PWA  -->
-    <!-- <link rel="manifest" href="manifest.json" /> -->
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="pwa/apple-icon-180.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="167x167"
-      href="pwa/apple-icon-167.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="pwa/apple-icon-152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="pwa/apple-icon-120.png"
-    />
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2048-2732.png"
-      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2732-2048.png"
-      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1668-2388.png"
-      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2388-1668.png"
-      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1668-2224.png"
-      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2224-1668.png"
-      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1536-2048.png"
-      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2048-1536.png"
-      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1242-2688.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2688-1242.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1125-2436.png"
-      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2436-1125.png"
-      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-828-1792.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1792-828.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1242-2208.png"
-      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-2208-1242.png"
-      media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-750-1334.png"
-      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1334-750.png"
-      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-640-1136.png"
-      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-    />
-    <link
-      rel="apple-touch-startup-image"
-      href="pwa/apple-splash-1136-640.png"
-      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-    />
-  </head>
-  <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <!-- full url with http(s) ie. https://github.com/konnek-adrian/portfolio -->
+    <meta property="og:url" content="https://konnek-adrian.github.io" />
+    <!-- full url to the image with http(s) ie. . Facebook suggests at least 1200 x 630. -->
+    <meta property="og:image" content="https://konnek-adrian.github.io/og.png"/>
+    
+    </head>
+    <body>
+      <main>
+        <section class="hero">
+          <div class="hero__image-container">
+            <img class="hero__image" src="../assets/img/profilowee.png"alt="Adrian Konnek photo"/>
+            <span class="hero__bubble"><span class="hero__hello"> Hey there! <span class="hand">🖐</span></span></span>
+          </div>
+          <div class="hero__description">
+            <h1 class="hero__header">
+              My name is Adrian and I'm an aspiring <span class="hero__special"> Frontend Developer</span> and a huge video game and technology fan!
+            </h1>
+            <p class="hero__paragraph">
+              You might be interested in checking the list of <a class="hero__link" href="#skills">my skills</a>. 
+              Don't forget to have a little glimpse at <a class="hero__link" href="#projects">my projects</a>. 
+              Currently I am looking for new challanges and to land my first job in the world of IT so if you have something interesting - <a class="hero__link" href="#contact"> contact me</a> 😊
+            </p>
+            <a class="hero__contact" href="mailto:konnek.adrian@gmail.com">konnek.adrian@gmail.com</a>  
+          </div>
+        </section>
+        <section class="skills" id="skills">
+        <h2 class="skills__header"> My skills</h2>   
+        <div class="skills__columns">
+        <arcticle class="skills-section">
+          <span class="skills-section__emoji">💻</span>
+          <h3 class="skills-section__header">Working knowledge</h3>
+          <ul class="skills-list">
+            <li class="skills-list__item">Semantic HTML</li>
+            <li class="skills-list__item">SASS</li>
+            <li class="skills-list__item">Markdown</li>
+            <li class="skills-list__item">gr</li>
+            <li class="skills-list__item">Flexbox</li>
+            <li class="skills-list__item">CSS GRID</li>
+          </ul>
+        </arcticle>
+        
+        <arcticle class="skills-section">
+          <span class="skills-section__emoji">💭</span>
+          <h3 class="skills-section__header">Know something about</h3>
+          <ul class="skills-list skills-list--grey">
+            <li class="skills-list__item">Git</li>
+            <li class="skills-list__item">API</li>
+            <li class="skills-list__item">ES6 + features</li>
+            <li class="skills-list__item">Animations in CSS</li>
+            <li class="skills-list__item">React</li>
+            <li class="skills-list__item">Accessibility</li>
+          </ul>
+        </arcticle>
+        <arcticle class="skills-section">
+          <span class="skills-section__emoji">👨‍🏫</span>
+          <h3 class="skills-section__header">Want to learn</h3>
+          <ul class="skills-list skills-list--dot">
+            <li class="skills-list__item">TypeScript</li>
+            <li class="skills-list__item">Tailwind</li>
+            <li class="skills-list__item">Angular</li>
+            <li class="skills-list__item">React Native</li>
+            <li class="skills-list__item">Swift</li>
+            <li class="skills-list__item"></li>
+          </ul>
+        </arcticle>
+      </div>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="projects__header">Recent projects</h2>
+          <p class="projects__description"> Here's a list of what I have done so far on my journey to become a Frontend Developer</p>
+        <div class="project-grid project-grid--js">
+         
+        </div>
+        </section>
+        <section class="contact" id="contact">
+          <h2 class="contact__header">Contact me</h2>
+          <p class="contact__description">I'm open for new opportunities.
+            If you have something for me then we should talk!
+          </p>
+          <div class="contact__links">
+          <ul class="socials">
+            <li class="socials__item">
+              <a class="socials__link" href="https://github.com/konnek-adrian">
+                 <img src="../assets/img/githubIcon.svg"class="socials__icon alt="Adrian Konnek's GitHub page"/>
+                </a>
+              </li>
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.instagram.com/konycjusz/">
+                 <img src="../assets/img/instagramIcon.svg" class="socials__icon alt="Adrian Konnek's Instagram profile"/>
+                </a>
+              </li>
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.facebook.com/konyyyyyyyy">
+                 <img src="../assets/img/FB.svg" class="socials__icon alt="Adrian Konnek's Facebook profile"/>
+                </a>
+              </li>
+            </ul>
+          <a class="contact__mail" href="mailto:konnek.adrian@gmail.com">konnek.adrian@gmail.com</a>
+        </div>
+        </section>
+      </main>
   </body>
 </html>
